@@ -1,8 +1,6 @@
 # Passport Account Token Strategy
-
-<a href="#badge">
-    <img alt="code style: prettier" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square">
-</a>
+[![CircleCI](https://circleci.com/gh/gradient/passport-account-token.svg?style=shield&circle-token=968f6103ffa962b0d3c7a759e3d0cd2d1f525eed)](https://circleci.com/gh/gradient/passport-account-token)
+[![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
 > A [passport.js](http://passportjs.org/) strategy for authenticating by a
 token passed in the URL params or the request header.
