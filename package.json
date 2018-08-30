@@ -1,0 +1,51 @@
+{
+  "name": "passport-account-token",
+  "version": "1.0.0",
+  "description": "A passport strategy for authenticating arbitrary user tokens, intended for user API token access",
+  "main": "dist/index.js",
+  "types": "src/definitions.d.ts",
+  "scripts": {
+    "build": "gulp",
+    "test": "mocha 'tests/**/*.test.js'",
+    "format": "prettier --trailing-comma es5 --single-quote --write '{src,tests}/**/**.ts'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gradient/passport-account-token.git"
+  },
+  "keywords": [
+    "passport",
+    "header",
+    "api",
+    "token",
+    "auth"
+  ],
+  "author": "Elliot Blackburn <elliot@gradient.co>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gradient/passport-account-token/issues"
+  },
+  "homepage": "https://github.com/gradient/passport-account-token#readme",
+  "dependencies": {
+    "passport-strategy": "~1.0.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.4",
+    "@types/express": "^4.16.0",
+    "@types/mocha": "^5.2.5",
+    "@types/passport": "^0.4.6",
+    "@types/passport-strategy": "~0.2.35",
+    "chai": "^4.1.2",
+    "del": "~3.0.0",
+    "express": "^4.16.3",
+    "gulp": "~3.9.1",
+    "gulp-sourcemaps": "~2.6.4",
+    "gulp-typescript": "~5.0.0-alpha.3",
+    "mocha": "^5.2.0",
+    "passport": "^0.4.0",
+    "prettier": "~1.14.2",
+    "ts-node": "~7.0.1",
+    "tslint": "5.2.0",
+    "typescript": "~2.4.1"
+  }
+}
